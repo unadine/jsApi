@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    
+</head>
+<body>
+    <h1 class="font-bold my-6 text-2xl text-center">Books</h1>
+        <div class =" px-10 md:px-20 py-10 " id="container" >
+            <div class="grid  md:grid-cols-4 gap-10">
+                  
+              <button onclick="sortId()" class="bg-gray-300 border border-gray-300 text-gray-900  rounded  px-4 py-2 w-1/2" > SortId</button>
+              <button onclick="filterYear()" class="bg-gray-300 border border-gray-300 text-gray-900  rounded  px-4 py-2 w-1/2">FilterYear</button>
+              <button onclick="filterAuthor()" class="bg-gray-300 border border-gray-300 text-gray-900  rounded  px-4 py-2 w-1/2">FilterAuthor</button>
+              </div>
+            </div>
+            <div id="mainDiv" class="px-10 md:px-20 py-10 grid md:grid-rows-2 md:grid-cols-4 gap-10">
+        
+            </div>
+        </div>
+
+        <script src="index.js"></script>
+</body>
+</html>
+
+
+	</body>
+
+</html>
+
+
